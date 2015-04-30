@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 55px;
+  font-size: 17px;
+}
+
+.navbar {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.logo {
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 260px;
+	height: 63px;
+	border-radius: 5px;
+}
+
+.current-page {
+  margin: 5px auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.current-page h1 {
+	padding-bottom: 15px;
+}
+
+.body-text {
+	padding: 15px;
+	background-color: white;
+}
+
+.body-text p {
+	margin-left: 10px;
+	padding-bottom: 15px;
+}
+
+.requirements-div li {
+	padding-bottom: 15px;
+}
+
+.contact-div div {
+	margin-left: 10px;
+}
+
+.single-story {
+	padding: 5px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	margin-right: 0px;
+	min-height: 250px;
+	overflow: hidden;
+}
+
+.single-story p {
+	font-size: 15px;
+	padding: 0;
+}
+
+.single-story-header {
+	border-bottom: 1px solid black;
+	margin-bottom: 5px;
+}
+
+.story-img {
+	padding: 5px;
+	padding-bottom: 0px;
+	float: left;
+	overflow: auto;
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.map {
+	overflow: hidden;
+	max-width: 95%;
+}
+
+.group-pic-div {
+	margin-left: 10px;
+	overflow: hidden;
+}
+
+.group-img {
+	max-height: 639.75px;
+	max-width: 510px;
+	margin-bottom: 10px;
+}
+
+.contact-div {
+	font-size: 20px;
+}
+
+.links h4 {
+	margin-left: 10px;
+}
+
+
+@media (min-width: 1200px) {
+	.current-page {
+		max-width: 70%;
+	}
+
+	.group-img {
+		margin-right: 5px;
+		max-height: 853px;
+		max-width: 680px;
+	}
+}
